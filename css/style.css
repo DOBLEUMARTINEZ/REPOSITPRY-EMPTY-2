@@ -1,0 +1,104 @@
+	@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+	body{
+		width: 100%;
+		height: 100%;
+		background: #111;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.content-00{
+		top: 0;
+		left: 0;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		padding: 0% 0%;
+		z-index: 0;
+	}
+
+	.content-00 span{
+		left: 0%;
+	    top: 0%;
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 0;
+	    border-radius: 0% 0% 0% 0%;
+	    background: #000000d4;
+	    box-shadow: 1px -2px 11px #000000e0;
+	    /*background-color: #d39e00d9;*/
+	}
+
+	.content-00 img{
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+
+	/* lateral menu */
+
+		.lateral-menu{
+			position: fixed;
+			width: 20%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: #000;
+			box-shadow: -1px -1px 12px 0px #00000063;
+			z-index: 5;
+		}
+
+		.lateral-menu h1{
+			width: 100%;
+			margin: 0% 0% 5% 0%;
+			padding: 5%;
+			text-align: left;
+			font-size: 25px;
+			color: #fff;
+			border-bottom: 1px solid #ffffff2e;
+		}
+
+		.lateral-menu ul{
+			width: 100%;
+			margin: 0%;
+			padding: 0%;
+			list-style: none;
+		}
+
+		.lateral-menu li{
+			width: 90%;
+			margin: 0% 5%;
+			border-radius: 5px; 
+			padding: 5px 5px 5px 55px;
+			cursor: pointer;
+			margin-bottom: 10px;
+			color: #fff;
+			font-size: 20px;
+			border:1.5px solid #d39e00d9;
+		}
+
+		.lateral-menu li>i{
+			float: left;
+			margin: 5px 5px 5px -35px;
+		}
+
+
+
+	/* box-00 */
+
+	.box-00{
+		position: absolute;
+		width: 70%;
+		top: 5%;
+		left: 25%;
+		color: #fff;
+	}
+
+	.box-00 h1{
+		font-size: 45px;
+	}
+
+	.box-00 p{
+		font-size: 20px;
+	}
